@@ -1,0 +1,7 @@
+# 电力金具数据集配置文件
+# 用于 YOLOv5 训练
+train: /home/HwHiAiUser/E2Esamples/src/E2E-Sample/ros2_robot_arm/ros2_ws/src/dofbot_garbage_yolov5/dofbot_garbage_yolov5/data/train/images
+val: /home/HwHiAiUser/E2Esamples/src/E2E-Sample/ros2_robot_arm/ros2_ws/src/dofbot_garbage_yolov5/dofbot_garbage_yolov5/data/val/images
+
+nc: 2
+names: ['sleeve', 'terminal_lug']

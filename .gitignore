@@ -1,0 +1,35 @@
+# ========== ROS2 编译产物 ==========
+build/
+install/
+log/
+**/build/
+**/install/
+**/log/
+
+# ========== Python 缓存 ==========
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ========== IDE & 本地配置 ==========
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ========== 无关示例工程（整个文件夹忽略） ==========
+Car/
+ChatBot/
+common/
+dogee/
+HDMI-sample/
+ROS-AscendCL/
+Voice/
+
+# ========== 可选：大体积数据/模型 ==========
+# 如果模型文件太大，取消下面注释不上传
+# **/best.pt
+# **/best.onnx
+# data_collect/
